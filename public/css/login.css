@@ -96,92 +96,49 @@ div.burger-menu i{
     text-align: center;
 }
 
-section.banner img{
-    width: 100%;
-}
-
 /* Main */
 
 main{
     margin: 0 auto;
     text-align: center;
     width: 90%;
-}
-
-h3 {
-    margin: 8px 0;
-}
-
-h3,
-.description{
-    color: #666;
-}
-
-.description {
-    text-align: left;
-    padding: 2px 0;
-    display: none;
-}
-
-.products {
-   display: flex;
-   flex-wrap: wrap;
-   justify-content: space-between;
-}
-
-
-.product {
-    background-color: #fff;
-    margin: 10px 0;
-}
-
-article div.main-article {
-    width: 100%;
+    height: 50vh;
     display: flex;
-    flex-wrap: wrap;
-    align-items: baseline;
-    border-top: 1px solid #ebebeb;
-    position: relative;
-    padding: 15px;
-    text-align: left;
+    flex-direction: column;
+    justify-content: center;
 }
 
-article div.main-article i {
-    display: block;
-    font-size: 16px;
-    padding: 5px;
-    width: 30px;
-    height: 30px;
-    border: 1px solid #39b54a;
+.login-title {
+    margin: 20px;
+}
+
+form input {
+    border: none;
+    margin: 10px;
+    border-radius: 7px;
     background-color: #fff;
-    border-radius: 50%;
-    position: absolute;
-    right: 20px;
-    top: -15px;
-    }
-
-.discount,
-.description {
-    font-size: 16px;
-    font-weight: normal;
+    width: 70%;
+    padding: 10px;
 }
 
-main section article img{
-    width: 100%;
+main div button{
+    margin-top: 20px;
+    background-color: #03264C;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+    transition: all 650ms;
 }
 
-main section article i,
-.discount{
-    color: #39b54a;
+main div button:hover{
+    background-color: #fff;
+    color:#03264C;
+    border: 1px solid black;
 }
 
-.price {
-   width: 30%
-}
 
-.discount {
-    width: 70%
-}
 
 /* Footer */
 
@@ -211,7 +168,8 @@ footer div h5 {
     margin: 5px;
  }
 
-@media (min-width: 768px) {
+
+ @media (min-width: 768px) {
     .top-header {
         flex-wrap: nowrap;
         justify-content: space-between;
@@ -313,7 +271,4 @@ footer div h5 {
     .product {
         width: 22%;
     }
-
 }
-
-
