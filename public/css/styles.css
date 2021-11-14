@@ -158,7 +158,12 @@ article div.main-article i {
     position: absolute;
     right: 20px;
     top: -15px;
-    }
+    transition: all 750ms;
+}
+
+article div.main-article i:hover{
+    transform: rotateZ(-90deg);
+}
 
 .discount,
 .description {
